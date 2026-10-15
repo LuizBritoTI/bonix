@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Bonix.Api/Bonix.Api.csproj" />
+  <Project Path="Bonix.Aplicacao/Bonix.Aplicacao.csproj" />
+  <Project Path="Bonix.Contratos/Bonix.Contratos.csproj" />
+  <Project Path="Bonix.Dominio/Bonix.Dominio.csproj" />
+  <Project Path="Bonix.Infraestrutura/Bonix.Infraestrutura.csproj" />
+</Solution>
