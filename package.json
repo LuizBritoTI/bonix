@@ -1,0 +1,14 @@
+{
+  "name": "bonix",
+  "private": true,
+  "workspaces": [
+    "src/Frontend/administrativo"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @bonix/administrativo",
+    "build": "npm run build --workspace @bonix/administrativo",
+    "typecheck": "npm run typecheck --workspace @bonix/administrativo",
+    "backend:run": "dotnet run --project src/Backend/Bonix.Api/Bonix.Api.csproj",
+    "backend:build": "dotnet build src/Backend/Bonix.slnx"
+  }
+}
